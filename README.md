@@ -109,7 +109,43 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 
 ---
 
-## [How To Use:](https://github.com/khucker3d/cyber-pocket-ble-anomaly-scanner/blob/main/How%20To%3A%20Setup%20%26%20Use.md)
+## How To: Install
+### Install & Setup
+1. Install: [Arduino IDE](https://www.arduino.cc/en/software/)
+2. Open Arduino IDE: Go to: Settings > Additional Boards Manager > Add ESP32 Board Package: [URL](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json):
+3. Go to: Tools > Board > Boards Manager > Install ESP32 _(by Espressif Systems)_ 
+4. Go to: Sketch > Include Library > Manage Libraries > Install TFT_eSPI > Install ESP32 BLE Arduino
+5. Go to Tools: Configure Board Settings
+   * Board: ESP32S3 Dev Module
+   * USB CDC On Boot: Enabled
+   * Upload Mode: UART0 / Hardware CDC
+   * Port: ESP32 device
+6. Connect the ESP32-S3 board via USB-C & plug into your machine's USB-C port
+
+### How To: Run The Tool (Arduino IDE)
+1. Power on the BLE device by selecting the orange side button
+2. Open the `pocket_ble_anomaly_scanner.ino` with Arduino IDE > Click: Upload
+3. Wait for the process to compile, then the scanner program will load
+<img width="252" height="189" alt="IMG_3115" src="https://github.com/user-attachments/assets/9a45e9b6-2ec6-425b-9799-9682e8bc955f" />
+
+4. Then the scanner UI will load 
+<img width="252" height="189" alt="IMG_3114" src="https://github.com/user-attachments/assets/cb8c0188-b0a0-4586-ae22-2869511b4e6f" />
+
+5. The BLE scan will automatically begin
+<img width="252" height="189" alt="IMG_3117" src="https://github.com/user-attachments/assets/aa4ec742-0fce-416e-ba60-3308be98c79c" />
+
+### Recommended Workflow
+1. Press A to freeze the list
+<img width="252" height="189" alt="IMG_3110" src="https://github.com/user-attachments/assets/0509b985-766e-4f65-8cc5-8b8a34b9ad5a" />
+
+2. Press B to move to the next page of detected devices
+3. Press A + B to open Device Details for the selected device
+<img width="252" height="189" alt="IMG_3109" src="https://github.com/user-attachments/assets/a72486c8-f751-4064-a3fa-d17359459b2f" />
+
+5. While in Device Details, press B to move through individual devices
+6. Long-press B to trust or untrust the selected device
+7. Press A to return from Device Details
+8. Press A again to resume scanning
 
 ---
 
