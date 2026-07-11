@@ -117,10 +117,10 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 1. Power on the BLE device by selecting the orange side button
 2. Open the `pocket_ble_anomaly_scanner.ino` with Arduino IDE > Click: Upload
 3. Wait for the process to compile, then the scanner program will load
-
-4. Then the scanner UI will load 
-   ![](images/IMG_3115.jpeg)
-5. The BLE scan will automatically begin
+![](images/IMG_3115.jpeg)
+5. Then the scanner UI will load 
+   ![](images/IMG_3116.jpeg)
+6. The BLE scan will automatically begin
    ![](images/scanning-warning-sanitized-01.jpeg)
 
 ### Recommended Workflow
