@@ -139,11 +139,11 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 
 ### Recommended Workflow
 1. Press A to freeze the list
-<img width="252" height="189" alt="IMG_3110" src="https://github.com/user-attachments/assets/0509b985-766e-4f65-8cc5-8b8a34b9ad5a" />
+   ![](images/freeze-alert-sanitized.jpg)
 
 2. Press B to move to the next page of detected devices
 3. Press A + B to open Device Details for the selected device
-<img width="252" height="189" alt="IMG_3109" src="https://github.com/user-attachments/assets/a72486c8-f751-4064-a3fa-d17359459b2f" />
+   ![](images/device-details-sanitized.jpeg)
 
 5. While in Device Details, press B to move through individual devices
 6. Long-press B to trust or untrust the selected device
