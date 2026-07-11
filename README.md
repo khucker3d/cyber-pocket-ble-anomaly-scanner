@@ -11,10 +11,10 @@
 [Hardware](#hardware) •
 [How To Use](#how-to-use) •
 [Software Stack](#software-stack) •
-[Limitations](#limitations)
-[Improvements](#improvements)
-[Educational Focus](#educational-focus)
-[Security Notes](#security-notes)
+[Limitations](#limitations) •
+[Improvements](#improvements) •
+[Educational Focus](#educational-focus) • 
+[Security Notes](#security-notes) •
 
 
 </div>
@@ -146,7 +146,7 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 
 ---
 
-## Future Improvements:
+## Improvements:
 ### Wireless Analysis:
 * Manufacturer database lookup
 * Enhanced BLE service UUID analysis
