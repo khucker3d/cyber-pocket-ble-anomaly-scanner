@@ -6,15 +6,14 @@
 
 <br>
 
-[Project Overview](#project-overview) •
-[Features](#features) •
-[Hardware](#hardware) •
-[How To Use](#how-to-use) •
-[Software Stack](#software-stack) •
-[Limitations](#limitations) •
-[Improvements](#improvements) •
-[Educational Focus](#educational-focus) • 
-[Security Notes](#security-notes) •
+[Project Overview](#project-overview) |
+[Features](#features) |
+[Hardware](#hardware) |
+[How To Use](#how-to-use) |
+[Software Stack](#software-stack) |
+[Limitations](#limitations) |
+[Improvements](#improvements) |
+[Educational Focus](#educational-focus) | [Security Notes](#security-notes)
 
 
 </div>
@@ -119,7 +118,8 @@ This project focuses on defensive wireless awareness, embedded firmware developm
    ![](images/device-details-sanitized.jpeg)
 
 5. While in Device Details, press B to move through individual devices
-6. Long-press B to trust or untrust the selected device
+6. Long-press B to trust or untrust the selected device 
+   ![](images/IMG_3122.jpeg)
 7. Press A to return from Device Details
 8. Press A again to resume scanning
 
