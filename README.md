@@ -58,6 +58,8 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 * USB serial monitoring support
 
 ## Hardware:
+![](IMG_3274.jpeg)
+
 * [LILYGO T-Display S3 (ESP32-S3)](https://www.amazon.com/dp/B0BRTT727Z?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 * USB-C cable
 * (Optional) USB-C battery bank
@@ -126,13 +128,13 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 1. Power on the BLE device by selecting the orange side button
 2. Open the `pocket_ble_anomaly_scanner.ino` with Arduino IDE > Click: Upload
 3. Wait for the process to compile, then the scanner program will load
-<img width="252" height="189" alt="IMG_3115" src="https://github.com/user-attachments/assets/9a45e9b6-2ec6-425b-9799-9682e8bc955f" />
+![](images/IMG_3115.jpeg)
 
 4. Then the scanner UI will load 
-<img width="252" height="189" alt="IMG_3114" src="https://github.com/user-attachments/assets/cb8c0188-b0a0-4586-ae22-2869511b4e6f" />
+![](images/IMG_3116.jpeg)
 
 5. The BLE scan will automatically begin
-<img width="252" height="189" alt="IMG_3117" src="https://github.com/user-attachments/assets/aa4ec742-0fce-416e-ba60-3308be98c79c" />
+![](images/IMG_3116.jpeg)
 
 ### Recommended Workflow
 1. Press A to freeze the list
