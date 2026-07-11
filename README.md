@@ -1,6 +1,6 @@
 # Pocket BLE Anomaly Scanner
 
-<img width="504" height="378" alt="IMG_3110" src="https://github.com/user-attachments/assets/0509b985-766e-4f65-8cc5-8b8a34b9ad5a" />
+![images/freeze-alert-sanitized.jpg]()
 
 ## About:
 This project focuses on defensive wireless awareness, embedded firmware development, and portable cybersecurity tooling using Bluetooth Low Energy (BLE) scanning and lightweight UI workflows. The scanner passively observes nearby BLE advertisements and provides a handheld interface.
