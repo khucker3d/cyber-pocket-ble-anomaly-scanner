@@ -58,7 +58,8 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 * USB serial monitoring support
 
 ## Hardware:
-![](IMG_3274.jpeg)
+
+![](images/IMG_3274.jpeg)
 
 * [LILYGO T-Display S3 (ESP32-S3)](https://www.amazon.com/dp/B0BRTT727Z?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 * USB-C cable
@@ -134,7 +135,7 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 ![](images/IMG_3116.jpeg)
 
 5. The BLE scan will automatically begin
-![](images/IMG_3116.jpeg)
+![](images/scanning-warning-sanitized-01.jpeg)
 
 ### Recommended Workflow
 1. Press A to freeze the list
