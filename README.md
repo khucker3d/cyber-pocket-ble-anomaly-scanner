@@ -1,8 +1,27 @@
+<div align="center">
+
 # Pocket BLE Anomaly Scanner
 
 ![](images/freeze-alert-sanitized.jpg)
 
-## About:
+<br>
+
+[Project Overview](#project-overview) •
+[Features](#features) •
+[Hardware](#hardware) •
+[How To Use](#how-to-use) •
+[Software Stack](#software-stack) •
+[Limitations](#limitations)
+[Improvements](#improvements)
+[Educational Focus](#educational-focus)
+[Security Notes](#security-notes)
+
+
+</div>
+
+---
+
+## Project Overview:
 This project focuses on defensive wireless awareness, embedded firmware development, and portable cybersecurity tooling using Bluetooth Low Energy (BLE) scanning and lightweight UI workflows. The scanner passively observes nearby BLE advertisements and provides a handheld interface.
 
 #### Examples:
@@ -58,16 +77,14 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 * USB serial monitoring support
 
 ## Hardware:
-
 ![](images/IMG_3274.jpeg)
-
 * [LILYGO T-Display S3 (ESP32-S3)](https://www.amazon.com/dp/B0BRTT727Z?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 * USB-C cable
 * (Optional) USB-C battery bank
 
 ---
 
-## How To: Install
+## How To Use
 ### Install & Setup
 1. Install: [Arduino IDE](https://www.arduino.cc/en/software/)
 2. Open Arduino IDE: Go to: Settings > Additional Boards Manager > Add ESP32 Board Package: [URL](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json):
@@ -80,16 +97,17 @@ This project focuses on defensive wireless awareness, embedded firmware developm
    * Port: ESP32 device
 6. Connect the ESP32-S3 board via USB-C & plug into your machine's USB-C port
 
-### How To: Run The Tool (Arduino IDE)
+### Run The Tool (Arduino IDE)
 1. Power on the BLE device by selecting the orange side button
 2. Open the `pocket_ble_anomaly_scanner.ino` with Arduino IDE > Click: Upload
-3. Wait for the process to compile, then the scanner program will load
+3. 
+4. Wait for the process to compile, then the scanner program will load
 ![](images/IMG_3115.jpeg)
 
-4. Then the scanner UI will load 
+5. Then the scanner UI will load 
 ![](images/IMG_3116.jpeg)
 
-5. The BLE scan will automatically begin
+6. The BLE scan will automatically begin
 ![](images/scanning-warning-sanitized-01.jpeg)
 
 ### Recommended Workflow
@@ -113,7 +131,9 @@ This project focuses on defensive wireless awareness, embedded firmware developm
 * TFT_eSPI
 * ESP32 BLE Libraries
 
-## Current Limitations:
+---
+
+## Limitations:
 * BLE only
 * No Wi-Fi scanning
 * No packet capture
